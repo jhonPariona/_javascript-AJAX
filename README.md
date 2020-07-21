@@ -18,11 +18,11 @@ Engloba un conjunto de tecnologías que funcionan entre sí y proporciona una fu
 
 | Codigo                      | Descripción                                                        |
 | --------------------------- | ------------------------------------------------------------------ |
-| **_1xx: Informativo_**      | Request fue recivido de manera correcta y se esta procesando.      |
-| **_2xx: Exitoso_**          | Request fue recivido, entendido y aceptado.                        |
+| **_1xx: Informativo_**      | Request fue recibido de manera correcta y se esta procesando.      |
+| **_2xx: Exitoso_**          | Request fue recibido, entendido y aceptado.                        |
 | **_3xx: Redirect_**         | Se requiere un accion(para redirecciones).                         |
 | **4xx: Error del cliente**  | Request no tiene lo requerido por el servidor.                     |
-| **5xx: Error del servidor** | Request fue recivido exitosamente pero hubo un error del servidor. |
+| **5xx: Error del servidor** | Request fue recibido exitosamente pero hubo un error del servidor. |
 
 #### Más comunes
 
@@ -111,6 +111,21 @@ function renderData($element, objJSON) {
 [🎬 learnwebcode](https://youtu.be/rJesac0_Ftw)
 
 ## 🧑 Fetch API
+
+[📖 Documentacion](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch)
+
+```js
+function fetchApiGet($element, URI) {
+  fetch(URI) /* Recibe como parámetros la url y un objeto de opciones */
+    .then((res) => (res.ok ? res.json() : Promise.reject(res)))
+    /* Usamos el mismo render de xmlHttpRequest */
+    .then((json) => renderData($element, json))
+    .catch((e) => {
+      let message = e.statusText || "Ocurrió un error";
+      $element.innerHTML = `Error ${e.status}: ${message}`;
+    });
+}
+```
 
 ## 📚 Librerias
 
