@@ -9,6 +9,43 @@ Engloba un conjunto de tecnologías que funcionan entre sí y proporciona una fu
 
 💡 Antes se usaba XML ahora se usa más JSON.
 
+<details>
+<summary>📜 Índice</summary>
+<ul>
+<li class="has-line-data" data-line-start="0" data-line-end="3"><a href="#-http">🌐 HTTP</a>
+<ul>
+<li class="has-line-data" data-line-start="1" data-line-end="3"><a href="#c%C3%B3digos-de-estado">códigos de estado</a>
+<ul>
+<li class="has-line-data" data-line-start="2" data-line-end="3"><a href="#m%C3%A1s-comunes">Más comunes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="3" data-line-end="4"><a href="#-activexobject">⛔ ActiveXobject</a></li>
+<li class="has-line-data" data-line-start="4" data-line-end="7"><a href="#-xmlhttprequest">👴 XMLHttpRequest</a>
+<ul>
+<li class="has-line-data" data-line-start="5" data-line-end="6"><a href="#estados">Estados</a></li>
+<li class="has-line-data" data-line-start="6" data-line-end="7"><a href="#projects">Projects</a></li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="7" data-line-end="9"><a href="#-fetch-api">🧑 Fetch API</a>
+<ul>
+<li class="has-line-data" data-line-start="8" data-line-end="9"><a href="#fetch-async-await">Fetch Async Await</a></li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="9" data-line-end="12"><a href="#-librerias">📚 Librerias</a>
+<ul>
+<li class="has-line-data" data-line-start="10" data-line-end="11"><a href="#axios">Axios</a></li>
+<ul>
+  <li class="has-line-data" data-line-start="11" data-line-end="12"><a href="#axios-async-await">Axios Async Await</a></li>
+</ul>
+</ul>
+</li>
+</ul>
+</details>
+
+<hr/>
+
 [![ajax](https://res.cloudinary.com/marcomontalbano/image/upload/v1592512060/video_to_markdown/images/youtube--qJT2FY1jjjE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/qJT2FY1jjjE?t=206)
 ![Arquitectura Ajax](https://jonmircha.com/img/blog/ajax.png)
 
@@ -135,7 +172,7 @@ function fetchApiGet($element, URI) {
 }
 ```
 
-### [Async Await](https://github.com/jhonPariona/_javascript-AJAX/blob/9a893afc932ed3d78c284de917402fbcfd1ffad3/Definition/fetchApiAsyncAwait.js#L20)
+### [Fetch Async Await](https://github.com/jhonPariona/_javascript-AJAX/blob/9a893afc932ed3d78c284de917402fbcfd1ffad3/Definition/fetchApiAsyncAwait.js#L20)
 
 [🎬 jonmircha](https://youtu.be/GP8OCiJLeN4?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&t=183)
 
@@ -192,3 +229,50 @@ function fetchApiAsAw($element, URI) {
 ## 📚 Librerias
 
 ### Axios
+
+[📖 Documentación](https://github.com/axios/axios) |
+[🎬 jhonmircha](https://youtu.be/uxsEZgkcvFU?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&t=128)
+
+```js
+function axiosGet($element, URI) {
+  axios
+    .get(URI)
+    .then((res) => {
+      const json = res.data;
+      renderData(
+        $element,
+        json
+      ); /* usamos el render que usamos en xmlHttprequest */
+    })
+    .catch((err) => {
+      let message = err.response.statusText || "Ocurrió un error";
+      $element.innerHTML = `Error ${err.response.status}: ${message}`;
+    });
+}
+```
+
+#### Axios Async Await
+
+[🎬 jhonmircha](https://youtu.be/SBr_EVNErPk?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&t=166)
+
+```js
+function axiosAsAw($element, URI) {
+  try {
+    let res = await axios.get(URI),
+      json = await res.data;
+    renderData($element, json);
+  } catch (err) {
+    const message = err.res.statusText || "Ocurrio un error";
+    $element.innerHTML = `${err.res.status} : ${message}`;
+  }
+}
+```
+
+**_🌳 TODOS:_**
+
+[🎬 axios](https://youtu.be/6LyagkoRWYA?list=RDQMoE0BWBCpnek) |
+[🎬 axios react](https://youtu.be/oQnojIyTXb8) |
+[🎬 axios react](https://youtu.be/kch6F2m0fkg) |
+[🎬 axios reaact](https://youtu.be/qiu7e_E6P9c) |
+[🎬 redux](https://youtu.be/EgGXWQEmsQ0) |
+[🎬 axios y fetch](https://www.youtube.com/watch?v=UvIMWDHyFko) |
