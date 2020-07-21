@@ -36,7 +36,9 @@ Engloba un conjunto de tecnologías que funcionan entre sí y proporciona una fu
 <li class="has-line-data" data-line-start="9" data-line-end="12"><a href="#-librerias">📚 Librerias</a>
 <ul>
 <li class="has-line-data" data-line-start="10" data-line-end="11"><a href="#axios">Axios</a></li>
-<li class="has-line-data" data-line-start="11" data-line-end="12"><a href="#axios-async-await">Axios Async Await</a></li>
+<ul>
+  <li class="has-line-data" data-line-start="11" data-line-end="12"><a href="#axios-async-await">Axios Async Await</a></li>
+</ul>
 </ul>
 </li>
 </ul>
@@ -249,7 +251,7 @@ function axiosGet($element, URI) {
 }
 ```
 
-### Axios Async Await
+#### Axios Async Await
 
 [🎬 jhonmircha](https://youtu.be/SBr_EVNErPk?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&t=166)
 
