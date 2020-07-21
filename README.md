@@ -228,7 +228,7 @@ function fetchApiAsAw($element, URI) {
 
 ## 📚 Librerias
 
-### Axios
+### [Axios](https://github.com/jhonPariona/_javascript-AJAX/blob/70bf35b85bc498eab4f470d4e1ab34e1f7a39f55/Definition/axios.js#L20)
 
 [📖 Documentación](https://github.com/axios/axios) |
 [🎬 jhonmircha](https://youtu.be/uxsEZgkcvFU?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&t=128)
@@ -251,7 +251,7 @@ function axiosGet($element, URI) {
 }
 ```
 
-#### Axios Async Await
+#### [Axios Async Await](https://github.com/jhonPariona/_javascript-AJAX/blob/70bf35b85bc498eab4f470d4e1ab34e1f7a39f55/Definition/axiosAsyncAwait.js#L20)
 
 [🎬 jhonmircha](https://youtu.be/SBr_EVNErPk?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&t=166)
 
