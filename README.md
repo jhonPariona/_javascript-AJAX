@@ -192,3 +192,24 @@ function fetchApiAsAw($element, URI) {
 ## 📚 Librerias
 
 ### Axios
+
+[📖 Documentación](https://github.com/axios/axios) |
+[🎬 jhonmircha](https://youtu.be/uxsEZgkcvFU?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&t=128)
+
+```js
+function axiosGet($element, URI) {
+  axios
+    .get(URI)
+    .then((res) => {
+      const json = res.data;
+      renderData(
+        $element,
+        json
+      ); /* usamos el render que usamos en xmlHttprequest */
+    })
+    .catch((err) => {
+      let message = err.response.statusText || "Ocurrió un error";
+      $element.innerHTML = `Error ${err.response.status}: ${message}`;
+    });
+}
+```
