@@ -5,7 +5,7 @@
   Asynchronous JavaScript and XML
 <p>
 
-Engloba un conjunto de tecnologías que funcionan entre sí para proporcional una funcionalidad asyncrónicapara comunicarse con el servidor, intercambiar datos y actualizar la página sin tener que recargar el navegador.
+Engloba un conjunto de tecnologías que funcionan entre sí y proporciona una funcionalidad asyncrónica para comunicarse con el servidor, intercambiar datos y actualizar la página sin tener que recargar el navegador.
 
 💡 Antes se usaba XML ahora se usa más JSON.
 
