@@ -105,12 +105,19 @@ function renderData($element, objJSON) {
 }
 ```
 
+### Projects
+
+[🐙 consumo PokeAPI xmlHttpRequest](https://github.com/wilderPariona/XMLHTTPRequest)
+
+
+***🌳 TODOS:***
+
 [🎬 xhr traversy media](https://youtu.be/82hnvUYY6QA) |
 [🎬 populate table html](https://youtu.be/12tjh_6xL2M) |
 [🎬 dcode](https://youtu.be/rjmtYkRK1nM) |
 [🎬 learnwebcode](https://youtu.be/rJesac0_Ftw)
 
-## 🧑 Fetch API
+## [🧑 Fetch API](https://github.com/jhonPariona/_javascript-AJAX/blob/9a893afc932ed3d78c284de917402fbcfd1ffad3/Definition/fetchApi.js#L20)
 
 [📖 Documentacion](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch) |
 [🎬 jhonmircha](https://youtu.be/dYB1UlGGmfk?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&t=176)
@@ -129,7 +136,7 @@ function fetchApiGet($element, URI) {
 }
 ```
 
-### Async Await
+### [Async Await](https://github.com/jhonPariona/_javascript-AJAX/blob/9a893afc932ed3d78c284de917402fbcfd1ffad3/Definition/fetchApiAsyncAwait.js#L20)
 
 [🎬 jonmircha](https://youtu.be/GP8OCiJLeN4?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&t=183)
 
@@ -150,6 +157,39 @@ function fetchApiAsAw($element, URI) {
   }
 }
 ```
+
+***🌳 TODOS:***
+
+[fetch project](https://www.youtube.com/watch?v=DbcLg8nRWEg&list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X&index=1) |
+[fetch](https://youtu.be/jK5zzSA2JHI) |
+[Servidor nodejs](https://www.youtube.com/watch?v=2z6lyszRhkE) |
+[Fetch uso basico](https://youtu.be/aKPcs-EIzZI)
+[fetch](https://youtu.be/Pi6wkdU2vR4)
+[fetch proyecto](https://www.youtube.com/watch?v=PoDsSsJnEW4&list=PLPl81lqbj-4JXPTIPbIvWED-xTVmOzhrf&index=2)
+[fetch proyecto](https://youtu.be/Oive66jrwBs)
+[fetch](https://youtu.be/gOBluM4NMj8)
+[fetch](https://youtu.be/lh8pHW9vwEA)
+[fetch](https://youtu.be/cuEtnrL9-H0)
+[fetch](https://youtu.be/c3qWHnJJbSY?list=RDQMoE0BWBCpnek)
+[fetch real time](https://youtu.be/E0UGGxd2DOo?list=RDQMoE0BWBCpnek)
+[consumir xml](https://youtu.be/MDAWie2Sicc?list=RDQMoE0BWBCpnek)
+[fetch async await](https://youtu.be/h6Zo8cxCFoY?list=RDQMoE0BWBCpnek)
+[project fetch](https://youtu.be/7f2HNadULOs)
+[project fetch](https://youtu.be/FN_ffvw_ksE)
+[app gatitos](https://youtu.be/L4-Immxr9bY)
+[diferencia fetch y ajax](https://youtu.be/V_acKBZ1ZPU)
+[fetch freecodecamp](https://youtu.be/2EagS0UtXeM)
+[reat fetch](https://youtu.be/_miJYtRqSRQ)
+[fetch con react](https://youtu.be/o5CdCETh8cQ)
+[todo con react](https://youtu.be/N8kYlimhuLw)
+[fetch react](https://youtu.be/T3Px88x_PsA)
+[fetch react](https://youtu.be/aNMY0lrWZXU)
+[fetch react](https://youtu.be/204C9yNeOYI)
+[fetch react](https://youtu.be/0au5_YFo4FE)
+[react](https://youtu.be/nf_3AsfPODs)
+[fectch con node](https://youtu.be/ZcbsdShPPoE)
+[react](https://youtu.be/GlXMtV0ylK0)
+
 
 ## 📚 Librerias
 
