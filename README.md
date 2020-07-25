@@ -49,7 +49,26 @@ Engloba un conjunto de tecnologías que funcionan entre sí y proporciona una fu
 [![ajax](https://res.cloudinary.com/marcomontalbano/image/upload/v1592512060/video_to_markdown/images/youtube--qJT2FY1jjjE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/qJT2FY1jjjE?t=206)
 ![Arquitectura Ajax](https://jonmircha.com/img/blog/ajax.png)
 
-## 🌐 HTTP
+## 🌐 HTTP PULL
+
+El cliente realiza peticiones en busca de datos actualizados al servidor.
+
+![image](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/985260d8-8a52-4d22-b3a7-26872e0b00f4/5102209878458368.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200725%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200725T020331Z&X-Amz-Expires=86400&X-Amz-Signature=a7e2b01e8f4b56ae61ebfc9b0b8cdaab88298335c8e7df45c8b6e49fb0f34863&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%225102209878458368.jpeg%22)
+
+
+### Tipo de peticiones
+
+#### Manual
+
+El cliente envia solicitudes cada vez que se activa manualmente(intervención del usuario) un evento.
+
+#### Polling
+
+El cliente envia solicitudes en un intervalo de tiempo regular(no interviene el usuario).
+
+### Conexión TTL
+
+Conexión Time To Live se refiere a que en cada comunicación cliente servidor hay un tiempo de vida para cada solicitud y si el cliente no recibe una respuesta en ese intérvalo el navegador elimina las conexiones abiertas.
 
 ### códigos de estado
 
